@@ -26,7 +26,7 @@ jobs:
       - name: Prepara GitHub Pages
         uses: actions/configure-pages@v5
       - name: Carica il sito
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: .
       - name: Pubblica il sito
