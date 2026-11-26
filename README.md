@@ -14,7 +14,7 @@ Per installarla e aprirla offline serve HTTPS; GitHub Pages lo fornisce.
 
 ## Uso e limiti attuali
 
-- Aggiungi una pubblicazione incollando il suo indirizzo, per esempio `https://nome.substack.com`; Posta aggiunge `/feed` automaticamente. Puoi anche incollare direttamente un URL RSS.
+- Aggiungi una pubblicazione incollando il suo indirizzo, per esempio `https://nome.substack.com`; Posta aggiunge `/feed` automaticamente. Puoi anche importare in un colpo solo un file OPML che contenga i feed RSS. Substack non documenta un’esportazione OPML ufficiale, quindi il file va preparato con uno strumento compatibile o da un altro lettore RSS.
 - Feed, articoli e stato di lettura sono salvati nel browser sul dispositivo. Non vengono sincronizzati tra telefono e computer e cancellando i dati del browser si perdono.
 - I feed sono richiesti dal browser tramite il servizio pubblico RSS2JSON. È un servizio esterno: disponibilità e limiti dipendono da RSS2JSON. Non inserire credenziali o dati privati.
 - Il testo mostrato come riassunto è l'estratto fornito dal feed, abbreviato quando è lungo. Non è un riassunto generato da un modello AI.
